@@ -1,0 +1,80 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(7,8,9,10,11,12); 
+void setup() {
+  lcd.begin(16,2);
+  int x,j=0,g,ct=1,b=0;
+  while(ct!=9)
+        {
+          lcd.setCursor(j,0);
+          x='A';
+          g=0;
+          while(g==0)
+               {
+                if(ct==1)
+                   if(x=='I')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                      }
+                if(ct==2)
+                   if(x=='Z')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                      }
+                if(ct==3)
+                   if(x=='A')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                      }
+                if(ct==4)
+                   if(x=='B')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                      }
+                if(ct==5)
+                   if(x=='E')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                      }
+                if(ct==6)
+                   if(x=='L')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                        b=1;
+                      }
+                if(ct==7 && b!=1)
+                   if(x=='L')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                      }
+                if(ct==8)
+                   if(x=='A')
+                      {
+                        j+=1;
+                        g=1;
+                        ct+=1;
+                      }
+                lcd.print(char(x));
+                lcd.setCursor(j,0);
+                delay(250);
+                x+=1;
+                b=0;
+               }
+        }
+}
+void loop() {
+  
+}
