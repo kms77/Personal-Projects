@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4260FE9C-AE77-460D-B0E1-037632223D30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Atractii_turistice</RootNamespace>
+    <AssemblyName>Atractii turistice</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alba-CarolinaImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alba-CarolinaImages.Designer.cs">
+      <DependentUpon>Alba-CarolinaImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alba_Carolina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alba_Carolina.Designer.cs">
+      <DependentUpon>Alba_Carolina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Casa_Poporului.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Casa_Poporului.Designer.cs">
+      <DependentUpon>Casa_Poporului.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delta.Designer.cs">
+      <DependentUpon>Delta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delta_Images.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delta_Images.Designer.cs">
+      <DependentUpon>Delta_Images.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Joc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Joc.Designer.cs">
+      <DependentUpon>Joc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meniu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meniu.Designer.cs">
+      <DependentUpon>Meniu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parlament_Images.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parlament_Images.Designer.cs">
+      <DependentUpon>Parlament_Images.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peles.Designer.cs">
+      <DependentUpon>Peles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Peles_Images.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peles_Images.Designer.cs">
+      <DependentUpon>Peles_Images.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Piece.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Sign in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Sign in.Designer.cs">
+      <DependentUpon>Sign in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sign_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign_in.Designer.cs">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfagarasan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfagarasan.Designer.cs">
+      <DependentUpon>Transfagarasan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfagarasa_Images.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfagarasa_Images.Designer.cs">
+      <DependentUpon>Transfagarasa_Images.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vesel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesel.Designer.cs">
+      <DependentUpon>Vesel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vesel_Images.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesel_Images.Designer.cs">
+      <DependentUpon>Vesel_Images.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Alba-CarolinaImages.resx">
+      <DependentUpon>Alba-CarolinaImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alba_Carolina.resx">
+      <DependentUpon>Alba_Carolina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Casa_Poporului.resx">
+      <DependentUpon>Casa_Poporului.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delta.resx">
+      <DependentUpon>Delta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delta_Images.resx">
+      <DependentUpon>Delta_Images.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Joc.resx">
+      <DependentUpon>Joc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meniu.resx">
+      <DependentUpon>Meniu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parlament_Images.resx">
+      <DependentUpon>Parlament_Images.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peles.resx">
+      <DependentUpon>Peles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peles_Images.resx">
+      <DependentUpon>Peles_Images.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Sign in.resx">
+      <DependentUpon>Sign in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign_in.resx">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfagarasan.resx">
+      <DependentUpon>Transfagarasan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfagarasa_Images.resx">
+      <DependentUpon>Transfagarasa_Images.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vesel.resx">
+      <DependentUpon>Vesel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vesel_Images.resx">
+      <DependentUpon>Vesel_Images.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baragan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Litoral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crisana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dobrogea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheile Bicazului.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moldova.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oltenia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maramures.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue sky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casa Poporului.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44332109_m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castelul_peles1-916x542.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carolina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trollstigen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Bucharest,_Palace_of_the_Parliament,_01-08-2004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa-poporului.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reevaluat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media-147314281946143800.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pescarusi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pelicani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nou-cimitirul-vesel-sapanta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peles-Castle-privat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alba-Iulia-si-Cetatea-Alba-Carolina-din-drona-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peisaje-de-pe-transfagarasan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Balea-Lake-tour.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\348175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfagarasan-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfagarasan-3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfagarasan-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfagarasan-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfagarasan-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delta1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delta2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delta3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delta4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delta5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alba1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alba2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alba3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alba4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alba5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alba6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parlament1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parlament2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parlament3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parlament4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parlament5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peles 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peles1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peles2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peles3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peles4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peles6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesel3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesel4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vesel5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delta6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa-poporului..jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\945707_522067594514913_1061401528_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water-.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
