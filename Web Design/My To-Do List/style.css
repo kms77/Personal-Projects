@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.todo-wrapper {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    font-weight: 400;
+}
+
+.todo-wrapper h2 {
+    margin: 0;
+    text-align: center;
+    color:#1fe4b3;
+    text-shadow: 1px 1px 3px #000000;
+    padding: 60px;
+    font-size: 1cm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.todo-wrapper p {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+    font-size: 0.55cm;
+}
+
+.todo-wrapper ul {
+    margin: 20px 0;
+}
+
+.todo-wrapper ul li {
+    margin: 5px 0;
+    padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.5cm;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.todo-wrapper ul li:hover{
+    background: rgb(176, 250, 255);
+}
+.todo-wrapper ul li:nth-child(even) {
+    background:rgb(176, 250, 255);  
+}
+
+.todo-wrapper .completed {
+  text-decoration: line-through;
+}
+
+.todo-wrapper .pretty-button {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #5c5ecf;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.todo-wrapper .pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.todo-wrapper input {
+    padding: 3px 6px;
+    font-size: 0.45cm;
+}
+
+.todo-wrapper form {
+    display: inline-block;
+}
+
+#control-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.todo-wrapper #add-button{
+   background-color: #1fe4b3;
+   font-size: 0.5cm;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+.todo-wrapper #clear-completed-button {
+    background-color: rgb(83, 83, 221);;
+    font-size: 0.5cm;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.todo-wrapper #empty-button {
+    background-color: #e24045;
+    font-size: 0.5cm;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.todo-wrapper #save-button {
+    background-color: #e0de4e;
+    font-size: 0.5cm;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.todo-wrapper #load-button {
+    background-color: #4ed3cc;
+    font-size: 0.5cm;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .todo-wrapper {
+        width: 50%;
+    }
+
+    .todo-wrapper input {
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .todo-wrapper {
+        width: 75%;
+    }
+
+    .todo-wrapper input {
+        width: 400px;
+    }
+}
